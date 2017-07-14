@@ -1,11 +1,117 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="0">
+            tests="6">
 
   <testsuite name="admin"
     errors="0" failures="0" hostname="" id="" package="admin" skipped="0"
-    tests="0" time="0.000" timestamp="Fri, 07 Jul 2017 14:43:38 GMT">
+    tests="6" time="38.30" timestamp="Fri, 14 Jul 2017 10:55:36 GMT">
+  
+    <testcase name="Admin sign in success" classname="admin" time="6.758" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Admin should be able to view all users" classname="admin" time="3.536" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Admin should be able to view all documents" classname="admin" time="3.215" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Admin can search for created user" classname="admin" time="8.821" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Admin can delete created user" classname="admin" time="12.52" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Admin sign out of application" classname="admin" time="3.451" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
 
   

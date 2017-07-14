@@ -113,20 +113,6 @@ module.exports = {
       .waitForElementVisible('input[name=title]', 10000)
       .pause(1000)
       .click('#Private')
-      // .waitForElementVisible('input[name=title]', 5000)
-      // .waitForElementVisible('div[id="mceu_8"]', 5000)
-      // .execute(() => {
-      //   const editor =
-      // $('iframe#id="react-tinymce-0_ifr"')
-      // .contents();
-      //   editor
-      // .find('.mce-content-body > p')
-      // .html('Lorem ipsum dolor sit amet');
-      // })
-      // .assert.visible('#newDocumentBtn')
-      // .click('#newDocumentBtn')
-      // .waitForElementVisible('.nav-wrapper', 5000)
-      // .assert.urlEquals(`${'http://localhost:8000/home'}`)
       .pause(1000);
   },
   'User sign out of application': (browser) => {

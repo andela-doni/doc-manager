@@ -1,5 +1,8 @@
 {
   "name": "docs-manager",
+  "engines": {
+    "node": "8.1.4"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
